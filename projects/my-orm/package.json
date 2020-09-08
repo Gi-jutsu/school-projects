@@ -1,0 +1,25 @@
+{
+  "name": "my-orm",
+  "version": "1.0.0",
+  "description": "self-made orm",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir lib",
+    "dev": "npx babel-node src/main.js"
+  },
+  "author": "gijutsu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "kleur": "^3.0.2",
+    "loadash": "^1.0.0",
+    "moment": "^2.24.0"
+  },
+  "dependencies": {
+    "pg": "^7.8.1"
+  }
+}

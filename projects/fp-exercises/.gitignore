@@ -1,0 +1,13 @@
+##
+# NODE
+##
+
+# Modules dependencies
+node_modules/
+
+##
+# GENERATED
+##
+
+# by IDE
+.idea/

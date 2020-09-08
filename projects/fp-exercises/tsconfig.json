@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "ES2019"]
+  },
+  "include": ["src"]
+}

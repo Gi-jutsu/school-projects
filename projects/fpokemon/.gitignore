@@ -1,0 +1,16 @@
+##
+# NODE
+##
+
+# Modules dependencies
+node_modules/
+
+# Environment
+.env
+
+##
+# GENERATED
+##
+
+# by IDE
+.idea/

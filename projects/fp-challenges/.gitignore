@@ -1,0 +1,8 @@
+## Node
+
+# Package Manager stuff
+node_modules/
+
+## IDE
+# Hello Webstorm
+.idea

@@ -1,0 +1,16 @@
+{
+  "author": "Dylan DE SOUSA <dds1991@hotmail.fr>",
+  "scripts": {
+    "hanoi": "babel-node --extensions \".ts\" src/hanoi.ts",
+    "8queens": "babel-node --extensions \".ts\" src/8queens.ts",
+    "Nqueens": "babel-node --extensions \".ts\" src/Nqueens.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/node": "^14.6.4",
+    "typescript": "^4.0.2"
+  }
+}

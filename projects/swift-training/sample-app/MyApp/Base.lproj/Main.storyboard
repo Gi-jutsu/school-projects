@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="MyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wg3-mM-jn6" customClass="SignInView" customModule="MyApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yvn-ak-naS" customClass="SignUpView" customModule="MyApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EGP-fE-NcG" customClass="ProfilView" customModule="MyApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wg3-mM-jn6" secondAttribute="bottom" id="00E-hd-DqC"/>
+                            <constraint firstItem="EGP-fE-NcG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3YN-su-3Dy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yvn-ak-naS" secondAttribute="trailing" id="4o6-D5-4gQ"/>
+                            <constraint firstItem="Wg3-mM-jn6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="STW-1y-uCR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EGP-fE-NcG" secondAttribute="trailing" id="Ubt-Ss-oVl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wg3-mM-jn6" secondAttribute="trailing" id="UeY-Ua-GQb"/>
+                            <constraint firstItem="EGP-fE-NcG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cKu-3O-pV6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yvn-ak-naS" secondAttribute="bottom" id="dHG-XH-rG8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EGP-fE-NcG" secondAttribute="bottom" id="eHk-0E-Pcf"/>
+                            <constraint firstItem="yvn-ak-naS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nMq-NV-JZc"/>
+                            <constraint firstItem="yvn-ak-naS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sFW-nM-nGN"/>
+                            <constraint firstItem="Wg3-mM-jn6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yTl-QJ-WcM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="SignInView" destination="Wg3-mM-jn6" id="G63-t2-lGz"/>
+                        <outlet property="SignUpView" destination="yvn-ak-naS" id="Yfc-gz-pfQ"/>
+                        <outlet property="profilView" destination="EGP-fE-NcG" id="lEf-7G-omE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80.799999999999997" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+</document>

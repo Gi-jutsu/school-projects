@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="156" id="KGk-i7-Jjw" customClass="ExtrasCell" customModule="SummerFinal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="155.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKA-Mx-n2o">
+                        <rect key="frame" x="24" y="15" width="82" height="22"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                        </accessibility>
+                        <attributedString key="attributedText">
+                            <fragment content="HUMIDITY">
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="0.64656464041095896" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" metaFont="system" size="17"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.2478328339041096" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2D-8s-0K6">
+                        <rect key="frame" x="24" y="41" width="48" height="27"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1039 hPa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZN-4N-wrA">
+                        <rect key="frame" x="200" y="41" width="96" height="27"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3o-hT-1KQ">
+                        <rect key="frame" x="24" y="84" width="46" height="22"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                        </accessibility>
+                        <attributedString key="attributedText">
+                            <fragment content="WIND">
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="0.64656464041095896" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" metaFont="system" size="17"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.24783283389999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3km/h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sa4-cG-CiS">
+                        <rect key="frame" x="24" y="110" width="66" height="27"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEA-Lr-IXU">
+                        <rect key="frame" x="200" y="84" width="83" height="22"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                        </accessibility>
+                        <attributedString key="attributedText">
+                            <fragment content="INDICE UV">
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="0.64656464041095896" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" metaFont="system" size="17"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.24783283389999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLd-S9-Fe0">
+                        <rect key="frame" x="200" y="15" width="86" height="22"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                        </accessibility>
+                        <attributedString key="attributedText">
+                            <fragment content="PRESSURE">
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="0.64656464041095896" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <font key="NSFont" metaFont="system" size="17"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" white="0.0" alpha="0.24783283389999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <size key="shadowOffset" width="1" height="1"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gn-6Q-gnN">
+                        <rect key="frame" x="200" y="110" width="25" height="27"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="KZN-4N-wrA" secondAttribute="trailing" constant="8" id="3Pd-12-iH1"/>
+                    <constraint firstItem="KZN-4N-wrA" firstAttribute="top" secondItem="ZLd-S9-Fe0" secondAttribute="bottom" constant="4" id="3UU-a0-RSf"/>
+                    <constraint firstItem="lEA-Lr-IXU" firstAttribute="leading" secondItem="KZN-4N-wrA" secondAttribute="leading" id="5Y4-Bt-Ut2"/>
+                    <constraint firstItem="sKA-Mx-n2o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="AB3-Mx-s3Z"/>
+                    <constraint firstItem="0gn-6Q-gnN" firstAttribute="top" secondItem="lEA-Lr-IXU" secondAttribute="bottom" constant="4" id="EuJ-BF-t19"/>
+                    <constraint firstItem="sa4-cG-CiS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="KOb-hr-hVQ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sa4-cG-CiS" secondAttribute="bottom" constant="8" id="MA4-os-cJL"/>
+                    <constraint firstItem="D3o-hT-1KQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="Qmj-Sk-nO6"/>
+                    <constraint firstItem="Q2D-8s-0K6" firstAttribute="top" secondItem="sKA-Mx-n2o" secondAttribute="bottom" constant="4" id="Sah-PE-bc8"/>
+                    <constraint firstItem="Q2D-8s-0K6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="V5z-JR-QK4"/>
+                    <constraint firstItem="lEA-Lr-IXU" firstAttribute="top" secondItem="KZN-4N-wrA" secondAttribute="bottom" constant="16" id="YNC-Xt-E32"/>
+                    <constraint firstItem="sKA-Mx-n2o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="c9h-2I-8sr"/>
+                    <constraint firstItem="0gn-6Q-gnN" firstAttribute="leading" secondItem="KZN-4N-wrA" secondAttribute="leading" id="fBC-ef-FhR"/>
+                    <constraint firstItem="D3o-hT-1KQ" firstAttribute="top" secondItem="Q2D-8s-0K6" secondAttribute="bottom" constant="16" id="jza-PZ-VzB"/>
+                    <constraint firstItem="ZLd-S9-Fe0" firstAttribute="leading" secondItem="KZN-4N-wrA" secondAttribute="leading" id="k0O-OI-rE7"/>
+                    <constraint firstItem="sa4-cG-CiS" firstAttribute="top" secondItem="D3o-hT-1KQ" secondAttribute="bottom" constant="4" id="pZ7-0H-taA"/>
+                    <constraint firstItem="ZLd-S9-Fe0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="sNS-58-0GR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="humidityLabel" destination="Q2D-8s-0K6" id="u1d-qL-ZB1"/>
+                <outlet property="pressureLabel" destination="KZN-4N-wrA" id="3nb-RR-QdE"/>
+                <outlet property="uvIndexLabel" destination="0gn-6Q-gnN" id="1I8-zd-40Z"/>
+                <outlet property="windSpeedLabel" destination="sa4-cG-CiS" id="Jou-Wl-gaX"/>
+            </connections>
+            <point key="canvasLocation" x="123.2" y="122.33883058470765"/>
+        </tableViewCell>
+    </objects>
+</document>

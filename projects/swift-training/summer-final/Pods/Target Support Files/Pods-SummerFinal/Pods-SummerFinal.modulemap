@@ -1,0 +1,6 @@
+framework module Pods_SummerFinal {
+  umbrella header "Pods-SummerFinal-umbrella.h"
+
+  export *
+  module * { export * }
+}

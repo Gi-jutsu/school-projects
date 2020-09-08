@@ -1,0 +1,35 @@
+{
+  "name": "myexpress",
+  "version": "1.0.0",
+  "description": "Minifying express :)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "watch-start": "nodemon dist/app.js",
+    "build": "npm run lint && npm run build-tsc",
+    "build-tsc": "tsc",
+    "watch-tsc": "tsc -w",
+    "lint": "tsc --noEmit && eslint \"lib/**.{js,ts}\" --quiet --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gi-jutsu/myExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gi-jutsu/myExpress/issues"
+  },
+  "homepage": "https://github.com/Gi-jutsu/myExpress#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "@types/node": "^12.7.12",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "tslint-config-airbnb": "^5.11.2",
+    "nodemon": "^1.19.3",
+    "typescript": "^3.6.4"
+  }
+}

@@ -12,3 +12,4 @@
 ## Misc
 - [my-ftp](projects/my-ftp)
 - [my-orm](projects/my-orm)
+- [my-s3](projects/my-s3)

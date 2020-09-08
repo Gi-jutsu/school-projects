@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ToDoDylan</string>
+
+    <string name="button_validate">Validate</string>
+    <string name="text_edit_hint_title">Title</string>
+    <string name="text_edit_hint_description">Description</string>
+    <string name="update">Update</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="logout">Logout</string>
+    <string name="account">Account</string>
+    <string name="email">Please enter your email</string>
+    <string name="firstname">Please enter your firstname</string>
+    <string name="lastname">Please enter your lastname</string>
+    <string name="password">Please enter your password</string>
+    <string name="password_confirm">Please confirm your password</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="color_header">Color</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="change_text_color">Change Text Color</string>
+    <string name="pref_color_key">Test</string>
+</resources>

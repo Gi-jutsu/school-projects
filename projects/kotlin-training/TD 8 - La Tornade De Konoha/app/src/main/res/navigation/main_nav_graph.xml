@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/taskListFragment">
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.desousadylan.todo.taskList.TaskListFragment"
+        android:label="TaskListFragment">
+        <action
+            android:id="@+id/editTask"
+            app:destination="@id/taskFragment" />
+        <action
+            android:id="@+id/gotToSettings"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="com.desousadylan.todo.task.TaskFragment"
+        android:label="TaskFragment" >
+        <action
+            android:id="@+id/returnToTaskList"
+            app:destination="@id/taskListFragment" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://android-tasks-api.herokuapp.com/tasks/{id}" />
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.desousadylan.todo.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

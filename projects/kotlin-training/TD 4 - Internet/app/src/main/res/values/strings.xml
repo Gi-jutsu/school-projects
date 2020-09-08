@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoDylan</string>
+
+    <string name="button_validate">Validate</string>
+    <string name="text_edit_hint_title">Title</string>
+    <string name="text_edit_hint_description">Description</string>
+</resources>

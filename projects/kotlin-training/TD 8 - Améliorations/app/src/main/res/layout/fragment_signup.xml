@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".authentication.SignupFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <EditText
+            android:id="@+id/lastname_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/lastname"
+            android:inputType="textPersonName"
+            android:text="Serrano"
+            app:layout_constraintBottom_toTopOf="@+id/pass_edit"
+            app:layout_constraintEnd_toEndOf="@+id/firstname_edit"
+            app:layout_constraintStart_toStartOf="@+id/firstname_edit"
+            app:layout_constraintTop_toBottomOf="@+id/firstname_edit" />
+
+        <EditText
+            android:id="@+id/firstname_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:ems="10"
+            android:hint="@string/firstname"
+            android:inputType="textPersonName"
+            android:text="Andrea"
+            app:layout_constraintBottom_toTopOf="@+id/lastname_edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email_edit" />
+
+        <EditText
+            android:id="@+id/pass_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:text="test"
+            app:layout_constraintBottom_toTopOf="@+id/passConfirm_edit"
+            app:layout_constraintEnd_toEndOf="@+id/firstname_edit"
+            app:layout_constraintStart_toStartOf="@+id/firstname_edit"
+            app:layout_constraintTop_toBottomOf="@+id/lastname_edit" />
+
+        <EditText
+            android:id="@+id/passConfirm_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/password_confirm"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/pass_edit"
+            app:layout_constraintStart_toStartOf="@+id/pass_edit"
+            app:layout_constraintTop_toBottomOf="@+id/pass_edit" />
+
+        <EditText
+            android:id="@+id/email_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:text="andrea_christina@hotmail.fr"
+            app:layout_constraintEnd_toEndOf="@+id/firstname_edit"
+            app:layout_constraintStart_toStartOf="@+id/firstname_edit"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/signUp_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/sign_up"
+            app:layout_constraintEnd_toEndOf="@+id/passConfirm_edit"
+            app:layout_constraintStart_toStartOf="@+id/passConfirm_edit"
+            app:layout_constraintTop_toBottomOf="@+id/passConfirm_edit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

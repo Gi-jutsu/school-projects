@@ -1,0 +1,28 @@
+{
+  "name": "myftp-server",
+  "version": "1.0.0",
+  "description": "Cool FTP server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js 127.0.0.1 3389"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gi-jutsu/myFTP-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gi-jutsu/myFTP-Server/issues"
+  },
+  "homepage": "https://github.com/Gi-jutsu/myFTP-Server#readme",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.2",
+    "uuid": "^3.3.3"
+  }
+}

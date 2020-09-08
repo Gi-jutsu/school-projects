@@ -1,0 +1,40 @@
+{
+  "name": "myftp-client",
+  "version": "0.0.1",
+  "description": "Electron | React | Webpack  Template",
+  "main": "app/index.js",
+  "scripts": {
+    "package-win": "npm run build-renderer & electron-builder build --win --x64",
+    "build-renderer": "cross-env NODE_ENV=production webpack --config configs/webpack.production.config.babel.js",
+    "start": "npm run build-renderer & electron app/index.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config configs/webpack.development.config.babel.js",
+    "prod": "cross-env NODE_ENV=production webpack-dev-server --config configs/webpack.development.config.babel.js",
+    "electron": "electron app/index.js"
+  },
+  "author": "Gijutsu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "electron": "^4.0.5",
+    "electron-builder": "^20.39.0",
+    "electron-reload": "^1.4.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}

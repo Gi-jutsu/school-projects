@@ -1,0 +1,88 @@
+.container {
+  width: 90%;
+}
+.path {
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1em 2em;
+}
+.filesWindow {
+  width: 100%;
+  background-color: lightgrey;
+  border-radius: 10px;
+  align-self: center;
+  margin: 1em 0 1em 0;
+  padding: 3em 1em 2em 1em;
+}
+
+.filesList {
+  list-style: none;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  padding: .5em 0;
+  border-bottom: 1px solid #b5b5bd;
+}
+
+.fileImage {
+  width: 20px;
+  height: 20px;
+  margin-right: .5em;
+}
+
+.title {
+  font-size: 17px;
+}
+
+strong {
+  font-family: monospace;
+  margin-left: .2em;
+}
+
+.commandsFrame {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.commandsList {
+  list-style: none;
+  margin-left: -1em;
+}
+
+.command {
+  margin: .3em 0;
+  font-size: 15px;
+}
+
+.keyword {
+  background-color: grey;
+  padding: .2em;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.logOutButton {
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  border: 0;
+  margin-top: 1em;
+  font-weight: bold;
+  background-color: #b5423c;
+  color: white;
+}
+
+.emptyTitle {
+  color: #253140;
+  text-align: center;
+  margin-left: -1em;
+  opacity: .7;
+}

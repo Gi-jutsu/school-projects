@@ -1,14 +1,14 @@
 # <a name='TOC'>🚀 Projects</a>
 
 ## Functional Programming
-- [fp-exercices](fp-exercises/README.md)
-- [fp-challenges](fp-challenges/README.md)
-- [fpokemon](fpokemon/README.md)
+- [fp-exercices](projects/fp-exercises/README.md)
+- [fp-challenges](projects/fp-challenges/README.md)
+- [fpokemon](projects/fpokemon/README.md)
 
 ## Mobile Development
-- [kotlin-training](kotlin-training/README.md)
-- [swift-training](swift-training/README.md)
+- [kotlin-training](projects/kotlin-training/README.md)
+- [swift-training](projects/swift-training/README.md)
 
 ## Misc
-- [my-ftp](my-ftp/README.md)
-- [my-orm](my-orm/README.md)
+- [my-ftp](projects/my-ftp/README.md)
+- [my-orm](projects/my-orm/README.md)

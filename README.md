@@ -15,7 +15,10 @@ Perhaps you could try to implement your own solutions ? And maybe we could discu
 - [kotlin-training](projects/kotlin-training)
 - [swift-training](projects/swift-training)
 
-## - Miscellaneous
+## - Algorithm
+- [pp-tefeta](projects/pp-tefeta)
+
+## - Build your own X
 - [my-ftp](projects/my-ftp)
 - [my-orm](projects/my-orm)
 - [my-s3](projects/my-s3)

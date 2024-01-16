@@ -1,8 +1,8 @@
 # <a name='TOC'>🌍 Overview</a>
 
-  My name is Dylan, I'm a passionate developer. I past 2 years ( 2018 - 2020 ) studying development at school, and I'm happy to share with you the differents subjects that I worked on.
+Hello, I'm Dylan, a keen developer. I spent the last two years (2018-2020) studying development at school, and I'm excited to talk about the different topics I've worked on.
 
-Perhaps you could try to implement your own solutions ? And maybe we could discuss about our implementation over a drink 🍹 
+Would you like to give your own solutions a shot? We could chat about our approaches over a drink 🍹.
 
 # <a name='TOC'>🚀 Projects</a>
 
